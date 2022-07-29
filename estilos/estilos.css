@@ -1,0 +1,1359 @@
+#inicio {
+	background-image: url(../imagenes/verde.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+#inicio nav input {
+	width: 100%;
+}
+
+
+#inicio .logos {
+	background-color: #1E6E37;
+}
+
+#inicio .logos {
+	display: flex;
+	flex-wrap: no-wrap;
+	align-items: center;
+	justify-content: left;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -20px;
+}
+
+#inicio .logos img {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+#inicio .logos img:hover {
+	transform: scale(1.1);
+}
+
+#inicio .logo2 {
+	position: absolute;
+	left: 300px;
+	top: 75px;
+}
+
+#inicio a {
+	text-decoration: none;
+}
+
+#inicio ul {
+	padding: 0;
+	list-style: none;
+}
+
+#inicio nav {
+	margin-top: 0;
+}
+
+#inicio .menuinfo {
+	display: flex;
+	background-color: #248542;
+	word-spacing: 30px;
+	font-family: 'Rubik Moonrocks';
+	font-size: 10px;
+}
+
+#inicio .menuinfo ul {
+	display: inline-block;
+}
+#inicio .menuinfo li {
+	display: inline-block;
+	font-size: 30px;
+
+}
+
+#inicio .menu1 {
+	padding-left: 40px;
+
+}
+
+#inicio .menu2 {
+	padding-left: 600px;
+	word-spacing: 10px;
+	vertical-align: bottom;
+
+}
+
+#inicio .menu1 a:hover {
+	text-decoration: underline;
+}
+
+#inicio .menuinfo ul a {
+	color: greenyellow;
+}
+
+#inicio .menuinfo input {
+	vertical-align: bottom;
+}
+
+#inicio .menuinfo img {
+	vertical-align: bottom;
+}
+
+#inicio .slider {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: #248542;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	word-spacing: 80px;
+}
+
+#inicio .slider img:hover {
+	border-style: dashed;
+	border-color: greenyellow;
+}
+
+#inicio .slider img {
+	border-radius: 30px;
+}
+
+#inicio .titulosecundario {
+	text-align: center;
+	font-family: 'Patrick Hand';
+	font-size: 40px;
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 3px;
+}
+
+#inicio .texto1 {
+	text-align: center;
+	font-size: 28px;
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	font-family: 'Concert One';
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 60px;
+}
+
+
+#inicio .primeratabla {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Electrolize';
+	font-size: 20px;
+	margin-left: 100px;
+	margin-bottom: 90px;
+	margin-top: 100px;
+	text-align: center;
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+}
+
+#inicio .primeratabla table {
+	background-color: #1E6E37;
+	border-style: solid;
+	border-color: greenyellow;
+	border-spacing: 30px;
+	border-radius: 30px;
+
+}
+
+#inicio .primeratabla a {
+	color: #20BAA8;
+}
+
+#inicio .primeratabla img:hover {
+	transform: scale(1.1);
+}
+
+#inicio .primeratabla img {
+	box-shadow: 5px 8px 12px black;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+}
+
+#inicio .primeratabla th, tr, td {
+	border: 0.5px;
+}
+
+#inicio .primeratabla tr th {
+	padding: 30px;
+}
+
+#inicio .primeratabla tr th td {
+	padding: 20px;
+}
+
+#inicio .primeratabla tr div {
+	margin-top: 30px;
+}
+
+#inicio .primeratabla tr td {
+	margin-top: 50px;
+}
+
+#inicio .primeratabla a:hover {
+	color: greenyellow;
+}
+
+
+
+#inicio .jefe {
+	padding: 20px;
+	background-color: #248542;
+}
+
+
+#inicio .jefe table {
+	border-color: greenyellow;
+	border-radius: 30px;
+	background-color: #1E6E37;
+}
+
+#inicio .span1 {
+	text-align: center;
+	font-size: 30px;
+	color: #C49618;
+	font-family: 'Heebo';
+	text-shadow: 0 0 8px black;
+}
+
+#inicio .span2 {
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 25px;
+	color: #C49618;
+	font-family: 'Heebo';
+	text-shadow: 0 0 8px black;
+}
+
+#inicio .jefe p {
+	color: #C7AA14;
+	font-size: 20px;
+	font-family: 'Mandali';
+}
+
+#inicio .jefe th {
+	padding: 10px;
+	border: 0;
+}
+
+#inicio .jefe img {
+	border-radius: 20px;
+	border: 2px solid;
+	border-color: greenyellow;
+	box-shadow: 5px 5px 5px black;
+}
+
+
+
+
+
+
+
+#inicio .redes {
+	color: #193809;
+	font-family: 'Patrick Hand';
+	font-size: 25px;
+	display: flex;
+	padding: 30px;
+	justify-content: baseline;
+	margin-left: 350px;
+}
+
+#inicio .redes ul {
+	display: inline-block;
+}
+
+#inicio .redes li{
+	display: inline-block;
+}
+
+
+#inicio .redes p {
+	word-spacing: 10px;
+	font-size: 35px;
+	color: ghostwhite;
+	font-weight: bold;
+	letter-spacing: 2px ;
+	text-align: center;
+
+}
+
+#inicio .fotosredes {
+	word-spacing: 80px;
+	text-align: left;
+}
+
+#inicio .fotosredes {
+	padding-left: 100px;
+	vertical-align: bottom;
+}
+
+
+
+
+#inicio footer {
+	padding: 5px;
+	text-align: center;
+	color: white;
+	border-color: black;
+	border-style: dotted;
+	background-color: #002915;
+	font-family: 'Mandali';
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+/*----------------------------*/
+
+#contacto {
+	background-image: url(../imagenes/fondosombra.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+#contacto nav input {
+	width: 100%;
+}
+
+
+#contacto .logos {
+	background-color: #5c4c26;
+}
+
+#contacto .logos {
+	display: flex;
+	flex-wrap: no-wrap;
+	align-items: center;
+	justify-content: left;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -20px;
+}
+
+#contacto .logo2 {
+	position: absolute;
+	left: 300px;
+	top: 75px;
+}
+
+#contacto .logos img {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+#contacto .logos img:hover {
+	transform: scale(1.1);
+}
+
+#contacto a {
+	text-decoration: none;
+}
+
+#contacto ul {
+	padding: 0;
+	list-style: none;
+}
+
+#contacto nav {
+	margin-top: 0;
+}
+
+#contacto .menuinfo {
+	display: flex;
+	background-color: #38230E;
+	word-spacing: 30px;
+	font-family: 'Rubik Moonrocks';
+	font-size: 10px;
+}
+
+#contacto .menuinfo ul {
+	display: inline-block;
+}
+#contacto .menuinfo li {
+	display: inline-block;
+	font-size: 30px;
+
+}
+
+#contacto .menu1 {
+	padding-left: 40px;
+
+}
+
+#contacto .menu2 {
+	padding-left: 600px;
+	word-spacing: 10px;
+	vertical-align: bottom;
+
+}
+
+#contacto .menu1 a:hover {
+	text-decoration: underline;
+}
+
+#contacto .menuinfo ul a {
+	color: greenyellow;
+}
+
+#contacto .menuinfo input {
+	vertical-align: bottom;
+}
+
+#contacto .menuinfo img {
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+#contacto .titulo {
+	text-align: center;
+	margin-top: 30px;
+	word-spacing: 15px;
+	color: ghostwhite;
+	font-family: 'Patrick Hand';
+	font-size: 50px;
+}
+
+#contacto .titulo p, h3 {
+	padding: 0;
+	margin: 0;
+}
+
+#contacto .titulo img {
+	width: 60px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+#contacto .titulo img:hover {
+	transform: scale(1.1);
+}
+
+
+#contacto .datos {
+	font-family: 'Concert One';
+	font-size: 35px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto .entrada {
+	text-align: center;
+}
+
+#contacto form {
+	text-align: center;
+}
+
+#contacto .nombre {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	font-family: 'Concert One';
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto .apellido {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Concert One';
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto .email {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Concert One';
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto .telefono {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Concert One';
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto .detalle {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Concert One';
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto .comen {
+	text-align: center;
+}
+
+#contacto .notificaciones {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Concert One';
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto .envio {
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+# .telefono {
+	margin-top: 40px;
+	font-family: 'Concert One';
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+	text-shadow: 0 0 8px black;
+}
+
+#contacto footer div {
+	text-align: center;
+}
+
+
+
+/*--------------------------*/
+
+#login {
+	background-image: url(../imagenes/verde.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+#login nav input {
+	width: 100%;
+}
+
+
+#login .logos {
+	background-color: #1E6E37;
+}
+
+#login .logos {
+	display: flex;
+	flex-wrap: no-wrap;
+	align-items: center;
+	justify-content: left;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -20px;
+}
+
+#login .logo2 {
+	position: absolute;
+	left: 300px;
+	top: 75px;
+}
+
+#login .logos img {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+#login .logos img:hover {
+	transform: scale(1.1);
+}
+
+#login a {
+	text-decoration: none;
+}
+
+#login ul {
+	padding: 0;
+	list-style: none;
+}
+
+#login nav {
+	margin-top: 0;
+}
+
+#login .menuinfo {
+	display: flex;
+	background-color: #248542;
+	word-spacing: 30px;
+	font-family: 'Rubik Moonrocks';
+	font-size: 10px;
+}
+
+#login .menuinfo ul {
+	display: inline-block;
+}
+#login .menuinfo li {
+	display: inline-block;
+	font-size: 30px;
+
+}
+
+#login .menu1 {
+	padding-left: 40px;
+
+}
+
+#login .menu2 {
+	padding-left: 600px;
+	word-spacing: 10px;
+	vertical-align: bottom;
+
+}
+
+#login .menu1 a:hover {
+	text-decoration: underline;
+}
+
+#login .menuinfo ul a {
+	color: greenyellow;
+}
+
+#login .menuinfo input {
+	vertical-align: bottom;
+}
+
+#login .menuinfo img {
+	vertical-align: bottom;
+}
+
+
+
+
+
+#login main {
+	margin-bottom: 75px;
+}
+
+#login .titulosecundario {
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Patrick Hand';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+}
+
+#login h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#login .flechita {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#login .datos {
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 8px black;	
+	font-family: 'Patrick Hand';
+	font-size: 35px;
+	margin: 10px;
+}
+
+#login .datos a {
+	color: white;
+	text-shadow: 0 0 8px black;	
+	font-weight: bold;
+}
+
+#login .datos label, span {
+	/*background-color: #1E6E37;*/
+	border-radius: 10%;
+}
+
+#login .datos a:hover {
+	color: greenyellow;
+}
+
+/*--------------------------*/
+
+
+#nosotros {
+	background-image: url(../imagenes/fondosombra.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+#nosotros nav input {
+	width: 100%;
+}
+
+#nosotros .logos {
+	background-color: #5c4c26;
+}
+
+#nosotros .logos {
+	display: flex;
+	flex-wrap: no-wrap;
+	align-items: center;
+	justify-content: left;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -20px;
+}
+
+#nosotros .logo2 {
+	position: absolute;
+	left: 300px;
+	top: 75px;
+}
+
+#nosotros .logos img {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+#nosotros .logos img:hover {
+	transform: scale(1.1);
+}
+
+#nosotros a {
+	text-decoration: none;
+}
+
+#nosotros ul {
+	padding: 0;
+	list-style: none;
+}
+
+#nosotros nav {
+	margin-top: 0;
+}
+
+#nosotros .menuinfo {
+	display: flex;
+	background-color: #38230E;
+	word-spacing: 30px;
+	font-family: 'Rubik Moonrocks';
+	font-size: 10px;
+}
+
+#nosotros .menuinfo ul {
+	display: inline-block;
+}
+#nosotros .menuinfo li {
+	display: inline-block;
+	font-size: 30px;
+
+}
+
+#nosotros .menu1 {
+	padding-left: 40px;
+
+}
+
+#nosotros .menu2 {
+	padding-left: 600px;
+	word-spacing: 10px;
+	vertical-align: bottom;
+
+}
+
+#nosotros .menu1 a:hover {
+	text-decoration: underline;
+}
+
+#nosotros .menuinfo ul a {
+	color: greenyellow;
+}
+
+#nosotros .menuinfo input {
+	vertical-align: bottom;
+}
+
+#nosotros .menuinfo img {
+	vertical-align: bottom;
+}
+
+
+
+
+
+#nosotros .titulo {
+	margin: 20px;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Patrick Hand';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+#nosotros .imagenprincipal {
+	display: flex;
+	margin-top: -30px;
+	margin-bottom: 40px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+#nosotros .imagenprincipal img {
+	align-items: center;
+	width: 90%;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	border: 5px solid;
+	border-color: greenyellow;
+}
+
+#nosotros .imagenprincipal img:hover {
+	transform: scale(1.1);
+}
+
+#nosotros main {
+	margin-left: 40px;
+	margin-right: 30px;
+}
+
+#nosotros h4 {
+	text-align: left;
+	color: ghostwhite;
+	font-family: 'Mali';
+	font-size: 40px;
+	text-shadow: 0 0 8px black;
+}
+
+#nosotros .parrafo {
+	color: #DEC995;
+	font-size: 22px;
+	text-shadow: 0 0 8px black;
+}
+
+#nosotros .criticas {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#nosotros .criticas table {
+	padding: 10px;
+	border-color: #38230E;
+	color: #EBAEB2;
+	font-size: 20px;
+	text-shadow: 0 0 8px black;
+}
+
+#nosotros .nombre {
+	color: ghostwhite;
+	font-size: 23px;
+	text-shadow: 0 0 8px black;
+}
+
+#nosotros .visita {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#nosotros .visita span {
+	font-size: 35px;
+	font-family: 'Mali';
+}
+
+#nosotros .visita span a {
+	color: black;
+	text-decoration: underline;	
+}
+
+#nosotros .visita a:hover {
+	color: greenyellow;
+} 
+
+
+/*--------------------------*/
+
+
+#sucursales {
+	background-image: url(../imagenes/verde.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+#sucursales nav input {
+	width: 100%;
+}
+
+#sucursales .logos {
+	background-color: #1E6E37;
+}
+
+#sucursales .logos {
+	display: flex;
+	flex-wrap: no-wrap;
+	align-items: center;
+	justify-content: left;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -20px;
+}
+
+#sucursales .logos img {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+#sucursales .logos img:hover {
+	transform: scale(1.1);
+}
+
+#sucursales .logo2 {
+	position: absolute;
+	left: 300px;
+	top: 75px;
+}
+
+#sucursales a {
+	text-decoration: none;
+}
+
+#sucursales ul {
+	padding: 0;
+	list-style: none;
+}
+
+#sucursales nav {
+	margin-top: 0;
+}
+
+#sucursales .menuinfo {
+	display: flex;
+	background-color: #248542;
+	word-spacing: 30px;
+	font-family: 'Rubik Moonrocks';
+	font-size: 10px;
+}
+
+#sucursales .menuinfo ul {
+	display: inline-block;
+}
+#sucursales .menuinfo li {
+	display: inline-block;
+	font-size: 30px;
+
+}
+
+#sucursales .menu1 {
+	padding-left: 40px;
+
+}
+
+#sucursales .menu2 {
+	padding-left: 600px;
+	word-spacing: 10px;
+	vertical-align: bottom;
+
+}
+
+#sucursales .menu1 a:hover {
+	text-decoration: underline;
+}
+
+#sucursales .menuinfo ul a {
+	color: greenyellow;
+}
+
+#sucursales .menuinfo input {
+	vertical-align: bottom;
+}
+
+#sucursales .menuinfo img {
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+#sucursales h3 {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Patrick Hand';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 3px;
+	margin-top: 60px;
+}
+
+#sucursales h4 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Mali';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 2px;
+	font-style: italic;
+}
+
+#sucursales .sucus {
+	display: flex;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+#sucursales .listado {
+	display: flex;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	justify-content: space-around;
+}
+
+#sucursales .sucus {
+	display: flex;
+	align-items: bottom;
+	font-size: 30px;
+	font-family: 'Mali';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-bottom: 70px;
+}
+
+#sucursales .sucus form {
+	display: flex;
+	align-items: center;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+	justify-content: space-around;
+}
+
+#sucursales fieldset {
+	width:  700px;
+	height:  100px;
+	text-align: center;
+	background-color: darkseagreen;
+}
+
+
+#sucursales .tabla {
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+
+#sucursales span {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Mali';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+#sucursales .imagen img {
+	border-radius: 80%;
+	border-style: solid;
+}
+
+#sucursales .imagen {
+	margin-top: -55px;
+	margin-left: 90px;
+}
+
+#sucursales .maps {
+	display: flex;
+}
+
+#sucursales footer {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#sucursales footer a:hover {
+	color: greenyellow;
+}
+
+#sucursales .maps {
+	margin-left: 650px;
+	margin-top: -20px;
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+
+#tienda {
+	background-color: #5c4c26;
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+#tienda nav input {
+	width: 100%;
+}
+
+
+#tienda .logos {
+	background-color: #5c4c26;
+}
+
+#tienda .logos {
+	display: flex;
+	flex-wrap: no-wrap;
+	align-items: center;
+	justify-content: left;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -20px;
+}
+
+#tienda .logos img {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+#tienda .logos img:hover {
+	transform: scale(1.1);
+}
+
+#tienda .logo2 {
+	position: absolute;
+	left: 300px;
+	top: 75px;
+}
+
+#tienda a {
+	text-decoration: none;
+}
+
+#tienda ul {
+	padding: 0;
+	list-style: none;
+}
+
+#tienda nav {
+	margin-top: 0;
+}
+
+#tienda .menuinfo {
+	display: flex;
+	background-color: #38230E;
+	word-spacing: 30px;
+	font-family: 'Rubik Moonrocks';
+	font-size: 10px;
+}
+
+#tienda .menuinfo ul {
+	display: inline-block;
+}
+#tienda .menuinfo li {
+	display: inline-block;
+	font-size: 30px;
+
+}
+
+#tienda .menu1 {
+	padding-left: 40px;
+
+}
+
+#tienda .menu2 {
+	padding-left: 600px;
+	word-spacing: 10px;
+	vertical-align: bottom;
+
+}
+
+#tienda .menu1 a:hover {
+	text-decoration: underline;
+}
+
+#tienda .menuinfo ul a {
+	color: greenyellow;
+}
+
+#tienda .menuinfo input {
+	vertical-align: bottom;
+}
+
+#tienda .menuinfo img {
+	vertical-align: bottom;
+}
+
+#tienda h3 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Patrick Hand';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 3px;
+}
+
+#tienda .corte {
+	text-align: center;
+}
+
+#tienda h4 {
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Mali';
+	color: #EB7D65;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 3px;
+}
+
+#tienda .primeratabla {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+}
+
+#tienda .segundatabla {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+}
+
+#tienda .corte {
+	background-image: url(../imagenes/agregado.png);
+	height: 25px;
+	width: 100%;
+}
+
+#tienda main a {
+	color: ghostwhite;
+	font-family: 'Lobster';
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+#tienda .final a:hover {
+	color: greenyellow;
+}
+
+#tienda .primeratabla a {
+	color: goldenrod;
+	letter-spacing: 5px;
+}
+
+#tienda .segundatabla a {
+	letter-spacing: 5px;
+	color: goldenrod;
+}
+
+#tienda .primeratabla a:hover {
+	color: greenyellow;
+}
+
+#tienda .segundatabla a:hover {
+	color: greenyellow;
+}
+
+#tienda .final {
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Mali';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+}
+
+#tienda .final a {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Mali';
+	color: #EB7D65;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+#tienda table span {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Mali';
+	color: ghostwhite;
+	text-shadow: 0 0 8px black;	
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
