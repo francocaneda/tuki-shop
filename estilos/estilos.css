@@ -1222,27 +1222,6 @@
 	text-shadow: 0 0 8px black;
 }
 
-#nosotros .parrafo > div {
-	width: 0;
-	margin-left: -300%;
-	height: 100px;
-	background-color: transparent;
-	opacity: 0;
-	/*transition-property: width;
-	transition-duration: 2s;
-	transition-timing-function: ease-in-out;*/
-
-	transition: all 0.7s linear;
-	/*
-		SHORTHUND
-	*/
-}
-
-#nosotros .parrafo:hover > div{
-	width: 100%;
-	margin: auto;
-	opacity: 100%;
-}
 
 #nosotros .criticas {
 	text-align: center;
@@ -1344,6 +1323,10 @@
 	font-size: 20px;
 }
 
+#nosotros .parrafo > div {
+	height: 150px;
+}
+
 }
 
 
@@ -1396,6 +1379,10 @@
 
 #nosotros .nombre {
 	font-size: 18px;
+}
+
+#nosotros .parrafo > div {
+	height: 200px;
 }
 
 }
