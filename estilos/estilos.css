@@ -1040,11 +1040,11 @@
 }
 
 #nosotros .logos {
-	background-color: #5c4c26;
+	background-color: transparent;
 }
 
 #nosotros .logo {
-	background-color: #5c4c26;
+	background-color: transparent;
 }
 
 #nosotros .logo {
@@ -1088,6 +1088,7 @@
 #nosotros a {
 	text-decoration: none;
 }
+
 
 #nosotros ul {
 	padding: 0;
@@ -1134,11 +1135,20 @@
 	justify-content: space-between;
 }
 
-#nosotros .menu1 a:hover {
-	text-decoration: underline;
-}
+
+/*#nosotros .menuinfo ul a {
+	color: greenyellow;
+}*/
 
 #nosotros .menuinfo ul a {
+	color: white;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in;
+}
+
+#nosotros .menu1 a:hover {
+	text-decoration: underline;
 	color: greenyellow;
 }
 
@@ -1274,7 +1284,7 @@
 	text-shadow: 0 0 8px black;
 }
 
-.criticas img {
+#nosotros .criticas img {
 	animation-name: animacion2;
 	animation-duration: 0.5s;
 	animation-iteration-count: infinite;
