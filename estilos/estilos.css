@@ -1191,6 +1191,14 @@
 	border-color: greenyellow;
 }
 
+#nosotros .imagen1 {
+	min-width: 230px;
+}
+
+#nosotros .video1 {
+	min-width: 160px;
+}
+
 #nosotros .imagenprincipal img:hover {
 	transform: scale(1.1);
 }
@@ -1221,7 +1229,7 @@
 
 #nosotros .criticas table {
 	padding: 10px;
-	border-color: #38230E;
+	border: 5px solid #BBB4E1;
 	color: #EBAEB2;
 	font-size: 20px;
 	text-shadow: 0 0 8px black;
@@ -1277,6 +1285,35 @@
 #nosotros .menuinfo li {
 	font-size: 26px;
 }
+
+#nosotros .titulo {
+	font-size: 40px;
+}
+
+#nosotros h4 {
+	font-size: 35px;
+}
+
+#nosotros .parrafo {
+	font-size: 20px;
+}
+
+#nosotros .criticas table {
+	padding: 10px;
+	border: 4px solid #BBB4E1;
+	color: #EBAEB2;
+	font-size: 17px;
+	text-shadow: 0 0 8px black;
+}
+#nosotros .visita span {
+	font-size: 30px;
+	font-family: 'Mali';
+}
+
+#nosotros .nombre {
+	font-size: 20px;
+}
+
 }
 
 
@@ -1301,6 +1338,36 @@
 #nosotros .menuinfo li {
 	font-size: 20px;
 }
+
+#nosotros .titulo {
+	font-size: 30px;
+}
+
+#nosotros h4 {
+	font-size: 25px;
+}
+
+#nosotros .parrafo {
+	font-size: 16px;
+}
+
+#nosotros .criticas table {
+	padding: 10px;
+	border: 3px solid #BBB4E1;
+	color: #EBAEB2;
+	font-size: 14px;
+	text-shadow: 0 0 8px black;
+}
+
+#nosotros .visita span {
+	font-size: 25px;
+	font-family: 'Mali';
+}
+
+#nosotros .nombre {
+	font-size: 18px;
+}
+
 }
 
 
