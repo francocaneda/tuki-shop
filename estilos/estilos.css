@@ -1217,9 +1217,31 @@
 }
 
 #nosotros .parrafo {
-	color: #DEC995;
+	color: #F8CAFD;
 	font-size: 22px;
 	text-shadow: 0 0 8px black;
+}
+
+#nosotros .parrafo > div {
+	width: 0;
+	margin-left: -300%;
+	height: 100px;
+	background-color: transparent;
+	opacity: 0;
+	/*transition-property: width;
+	transition-duration: 2s;
+	transition-timing-function: ease-in-out;*/
+
+	transition: all 0.7s linear;
+	/*
+		SHORTHUND
+	*/
+}
+
+#nosotros .parrafo:hover > div{
+	width: 100%;
+	margin: auto;
+	opacity: 100%;
 }
 
 #nosotros .criticas {
@@ -1259,6 +1281,14 @@
 #nosotros .visita a:hover {
 	color: greenyellow;
 } 
+
+#nosotros .ancla {
+	text-decoration:  none;
+	border-bottom: 1px solid transparent;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
 
 
 
