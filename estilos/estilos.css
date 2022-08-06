@@ -412,8 +412,8 @@
 @media (max-width: 1100px){
 
 #inicio .logos img {
-	width: 375px;
-	height: 220px;
+	width: 325px;
+	height: 200px;
 }
 
 #inicio .logos2 img {
@@ -1043,9 +1043,31 @@
 	background-color: #5c4c26;
 }
 
-#nosotros .logos {
+#nosotros .logo {
+	background-color: #5c4c26;
+}
+
+#nosotros .logo {
 	display: flex;
-	flex-wrap: no-wrap;
+	flex-wrap: wrap;
+}
+
+#nosotros .logos2 {
+	flex: 1;
+}
+
+#nosotros .logos img {
+	width: 425px;
+	height: 250px;
+}
+
+#nosotros .logos2 img {
+	width: 400px;
+}
+
+#nosotros .logo {
+	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: left;
 	padding: 20px;
@@ -1054,18 +1076,12 @@
 	margin-left: -20px;
 }
 
-#nosotros .logo2 {
-	position: absolute;
-	left: 300px;
-	top: 75px;
-}
-
-#nosotros .logos img {
+#nosotros .logo img {
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
 }
 
-#nosotros .logos img:hover {
+#nosotros .logo img:hover {
 	transform: scale(1.1);
 }
 
@@ -1079,36 +1095,43 @@
 }
 
 #nosotros nav {
+	width: 100%;
 	margin-top: 0;
-}
-
-#nosotros .menuinfo {
+	width: 100%;
 	display: flex;
+	flex-wrap: no-wrap;
 	background-color: #38230E;
 	word-spacing: 30px;
 	font-family: 'Rubik Moonrocks';
 	font-size: 10px;
 }
 
+
+
 #nosotros .menuinfo ul {
-	display: inline-block;
+	width: 100%;
 }
 #nosotros .menuinfo li {
-	display: inline-block;
 	font-size: 30px;
-
 }
 
 #nosotros .menu1 {
-	padding-left: 40px;
-
+	padding-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly ;
 }
 
 #nosotros .menu2 {
-	padding-left: 600px;
-	word-spacing: 10px;
-	vertical-align: bottom;
+	margin-right: 30px;
+	vertical-align: middle;
+	display: flex;
+	justify-content: flex-end;
+}
 
+#nosotros .espaciado {
+	display: flex;
+	justify-content: space-between;
 }
 
 #nosotros .menu1 a:hover {
@@ -1149,6 +1172,14 @@
 	text-align: center;
 	margin-left: 30px;
 }
+
+#nosotros .imagenprincipal > div {
+	width: 50%;
+}
+#nosotros .imagenprincipal .video1 {
+	width: 55%;
+}
+
 
 #nosotros .imagenprincipal img {
 	align-items: center;
@@ -1220,6 +1251,67 @@
 #nosotros .visita a:hover {
 	color: greenyellow;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px){
+
+#nosotros .logos img {
+	width: 325px;
+	height: 200px;
+}
+
+#nosotros .logos2 img {
+	width: 300px;
+}
+
+#nosotros .menuinfo li {
+	font-size: 26px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+
+#nosotros .logos img {
+	width: 250px;
+	height: 150px;
+}
+
+#nosotros .logos2 img {
+	width: 240px;
+}
+
+#nosotros .menuinfo li {
+	font-size: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*--------------------------*/
