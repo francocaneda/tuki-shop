@@ -26,8 +26,8 @@
 }
 
 #inicio .logos img {
-	width: 425px;
-	height: 250px;
+	width: 375px;
+	height: 220px;
 }
 
 #inicio .logos2 img {
@@ -144,7 +144,7 @@
 }
 
 #inicio .slider img {
-	width: 45%;
+	width: 40%;
 	min-width: 230px;
 }
 
@@ -651,14 +651,35 @@
 	width: 100%;
 }
 
-
 #contacto .logos {
-	background-color: #5c4c26;
+	background-color: #7A5537;
 }
 
-#contacto .logos {
+#contacto .logo {
+	background-color: #7A5537;
+}
+
+#contacto .logo {
 	display: flex;
-	flex-wrap: no-wrap;
+	flex-wrap: wrap;
+}
+
+#contacto .logos2 {
+	flex: 1;
+}
+
+#contacto .logos img {
+	width: 375px;
+	height: 220px;
+}
+
+#contacto .logos2 img {
+	width: 400px;
+}
+
+#contacto .logo {
+	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: left;
 	padding: 20px;
@@ -667,18 +688,12 @@
 	margin-left: -20px;
 }
 
-#contacto .logo2 {
-	position: absolute;
-	left: 300px;
-	top: 75px;
-}
-
-#contacto .logos img {
+#contacto .logo img {
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
 }
 
-#contacto .logos img:hover {
+#contacto .logo img:hover {
 	transform: scale(1.1);
 }
 
@@ -686,49 +701,61 @@
 	text-decoration: none;
 }
 
+
 #contacto ul {
 	padding: 0;
 	list-style: none;
 }
 
 #contacto nav {
+	width: 100%;
 	margin-top: 0;
-}
-
-#contacto .menuinfo {
+	width: 100%;
 	display: flex;
+	flex-wrap: no-wrap;
 	background-color: #38230E;
 	word-spacing: 30px;
 	font-family: 'Rubik Moonrocks';
 	font-size: 10px;
 }
 
+
+
 #contacto .menuinfo ul {
-	display: inline-block;
+	width: 100%;
 }
 #contacto .menuinfo li {
-	display: inline-block;
 	font-size: 30px;
-
 }
 
 #contacto .menu1 {
-	padding-left: 40px;
-
+	padding-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly ;
 }
 
 #contacto .menu2 {
-	padding-left: 600px;
-	word-spacing: 10px;
-	vertical-align: bottom;
+	margin-right: 30px;
+	vertical-align: middle;
+	display: flex;
+	justify-content: flex-end;
+}
 
+#contacto .espaciado {
+	display: flex;
+	justify-content: space-between;
+}
+
+#contacto .menuinfo ul a {
+	color: white;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in;
 }
 
 #contacto .menu1 a:hover {
 	text-decoration: underline;
-}
-
-#contacto .menuinfo ul a {
 	color: greenyellow;
 }
 
@@ -739,7 +766,6 @@
 #contacto .menuinfo img {
 	vertical-align: bottom;
 }
-
 
 
 
@@ -905,8 +931,8 @@
 }
 
 #login .logos img {
-	width: 425px;
-	height: 250px;
+	width: 375px;
+	height: 220px;
 }
 
 #login .logos2 img {
@@ -1151,11 +1177,11 @@
 }
 
 #nosotros .logos {
-	background-color: transparent;
+	background-color: #7A5537;
 }
 
 #nosotros .logo {
-	background-color: transparent;
+	background-color: #7A5537;
 }
 
 #nosotros .logo {
@@ -1168,8 +1194,8 @@
 }
 
 #nosotros .logos img {
-	width: 425px;
-	height: 250px;
+	width: 375px;
+	height: 220px;
 }
 
 #nosotros .logos2 img {
@@ -1568,13 +1594,31 @@
 	width: 100%;
 }
 
-#sucursales .logos {
+#sucursales .logo {
 	background-color: #1E6E37;
 }
 
-#sucursales .logos {
+#sucursales .logo {
 	display: flex;
-	flex-wrap: no-wrap;
+	flex-wrap: wrap;
+}
+
+#sucursales .logos2 {
+	flex: 1;
+}
+
+#sucursales .logos img {
+	width: 375px;
+	height: 220px;
+}
+
+#sucursales .logos2 img {
+	width: 400px;
+}
+
+#sucursales .logo {
+	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: left;
 	padding: 20px;
@@ -1583,22 +1627,16 @@
 	margin-left: -20px;
 }
 
-#sucursales .logos img {
+#sucursales .logo img {
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
 }
 
-#sucursales .logos img:hover {
+#sucursales .logo img:hover {
 	transform: scale(1.1);
 }
 
-#sucursales .logo2 {
-	position: absolute;
-	left: 300px;
-	top: 75px;
-}
-
-#sucursales a {
+/*#sucursales a {
 	text-decoration: none;
 }
 
@@ -1608,43 +1646,55 @@
 }
 
 #sucursales nav {
-	margin-top: 0;
-}
-
-#sucursales .menuinfo {
+	width: 100%;
+	width: 100%;
 	display: flex;
+	flex-wrap: no-wrap;
 	background-color: #248542;
 	word-spacing: 30px;
 	font-family: 'Rubik Moonrocks';
 	font-size: 10px;
 }
 
+
+
 #sucursales .menuinfo ul {
-	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 2px;
 }
 #sucursales .menuinfo li {
-	display: inline-block;
 	font-size: 30px;
-
 }
 
 #sucursales .menu1 {
-	padding-left: 40px;
-
+	padding-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly ;
 }
 
 #sucursales .menu2 {
-	padding-left: 600px;
-	word-spacing: 10px;
-	vertical-align: bottom;
+	margin-right: 30px;
+	vertical-align: middle;
+	display: flex;
+	justify-content: flex-end;
+}
 
+#sucursales .espaciado {
+	display: flex;
+	justify-content: space-between;
+}
+
+#sucursales .menuinfo ul a {
+	color: white;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in;
 }
 
 #sucursales .menu1 a:hover {
 	text-decoration: underline;
-}
-
-#sucursales .menuinfo ul a {
 	color: greenyellow;
 }
 
@@ -1661,6 +1711,7 @@
 
 
 
+*/
 #sucursales h3 {
 	text-align: center;
 	font-size: 60px;
@@ -1668,9 +1719,10 @@
 	color: ghostwhite;
 	text-shadow: 0 0 8px black;	
 	letter-spacing: 3px;
-	margin-top: 60px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
-
+/*
 #sucursales h4 {
 	text-align: center;
 	font-size: 40px;
@@ -1685,13 +1737,11 @@
 	display: flex;
 	margin-top: 60px;
 	margin-left: 20px;
+	justify-content: space-evenly;
 }
 
 #sucursales .listado {
 	display: flex;
-	margin-top: 25px;
-	margin-left: 20px;
-	margin-bottom: 30px;
 	justify-content: space-around;
 }
 
@@ -1705,7 +1755,7 @@
 	letter-spacing: 2px;
 	font-weight: bold;
 	margin-left: 80px;
-	margin-bottom: 70px;
+	margin-bottom: 35px;
 }
 
 #sucursales .sucus form {
@@ -1713,12 +1763,12 @@
 	align-items: center;
 	padding-bottom: 30px;
 	margin-bottom: 50px;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 #sucursales fieldset {
 	width:  700px;
-	height:  100px;
+	height:  80px;
 	text-align: center;
 	background-color: darkseagreen;
 }
@@ -1745,13 +1795,15 @@
 	border-style: solid;
 }
 
-#sucursales .imagen {
-	margin-top: -55px;
-	margin-left: 90px;
-}
-
 #sucursales .maps {
 	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+#sucursales .maps iframe {
+	width: 700px;
+	height: 300px;
 }
 
 #sucursales footer {
@@ -1762,12 +1814,7 @@
 #sucursales footer a:hover {
 	color: greenyellow;
 }
-
-#sucursales .maps {
-	margin-left: 650px;
-	margin-top: -20px;
-}
-
+*/
 
 /*-------------------------------------------------------------------------*/
 
