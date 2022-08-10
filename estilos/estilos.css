@@ -772,6 +772,8 @@
 
 
 #contacto .titulo {
+	margin-left: 10px;
+	margin-right: 10px;
 	text-align: center;
 	margin-top: 30px;
 	word-spacing: 15px;
@@ -786,7 +788,8 @@
 }
 
 #contacto .titulo img {
-	width: 60px;
+	width: 3%;
+	min-width: 40px;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
@@ -797,6 +800,8 @@
 
 
 #contacto .datos {
+	margin-left: 20px;
+	margin-right: 20px;
 	font-family: 'Concert One';
 	font-size: 35px;
 	color: ghostwhite;
@@ -877,12 +882,14 @@
 }
 
 #contacto .envio {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
 #contacto .telefono {
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 40px;
 	font-family: 'Concert One';
 	font-size: 25px;
@@ -894,6 +901,93 @@
 #contacto footer div {
 	text-align: center;
 }
+
+#contacto footer img {
+	width: 40%;
+	min-width: 225px;
+}
+
+
+
+
+
+@media (max-width: 1100px){
+
+#contacto .logos img {
+	width: 325px;
+	height: 200px;
+}
+
+#contacto .logos2 img {
+	width: 300px;
+}
+
+#contacto .menuinfo li {
+	font-size: 26px;
+}
+
+#contacto .titulo {
+	font-size: 40px;
+}
+
+#contacto .datos {
+	font-size: 30px;
+}
+
+#contacto .telefono {
+	margin-top: 20px;
+	font-size: 23px;
+}
+
+#contacto .envio {
+	margin-bottom: 10px;
+}
+
+
+
+}
+
+
+
+
+@media (max-width: 700px){
+
+#contacto .logos img {
+	width: 250px;
+	height: 150px;
+}
+
+#contacto .logos2 img {
+	width: 240px;
+}
+
+#contacto .menuinfo li {
+	font-size: 20px;
+}
+
+#contacto .titulo {
+	font-size: 30px;
+}
+
+#contacto .datos {
+	font-size: 25px;
+}
+
+#contacto .telefono {
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 21px;
+}
+
+#contacto .envio {
+	margin-bottom: 5px;
+}
+
+}
+
+
+
+
 
 
 
@@ -969,7 +1063,7 @@
 	list-style: none;
 }
 
-#login nav {
+/*#login nav {
 	width: 100%;
 	margin-top: 0;
 	width: 100%;
@@ -1028,14 +1122,14 @@
 
 #login .menuinfo img {
 	vertical-align: bottom;
-}
+}*/
 
 
 
 
 
 #login main {
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 }
 
 #login .titulosecundario {
@@ -1049,6 +1143,7 @@
 }
 
 #login h3 {
+	font-size: 70px;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -1091,7 +1186,6 @@
 
 
 
-
 @media (max-width: 1100px){
 
 #login .logos img {
@@ -1108,6 +1202,15 @@
 }
 
 #login .titulosecundario {
+	margin: 15px;
+	padding: 15px;
+}
+
+#login h3 {
+	font-size: 60px;
+}
+
+#login .titulosecundario {
 	font-size: 50px;
 }
 
@@ -1119,10 +1222,10 @@
 	font-size: 30px;
 }
 
-#login main {
-	margin-bottom: 60px;
+#login .flechita {
+	text-align: center;
+	margin-bottom: 30px;
 }
-
 
 }
 
@@ -1145,6 +1248,10 @@
 	font-size: 40px;
 }
 
+#login h3 {
+	font-size: 50px;
+}
+
 #login .flechita img {
 	width: 60px;
 }
@@ -1155,6 +1262,16 @@
 
 #login main {
 	margin-bottom: 50px;
+}
+
+#login .titulosecundario {
+	margin: 10px;
+	padding: 10px;
+}
+
+#login .flechita {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 }
@@ -1364,7 +1481,7 @@
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
 	border: 5px solid;
-	border-color: greenyellow;
+	border-color: burlywood;
 }
 
 #nosotros .imagen1 {
@@ -1794,7 +1911,7 @@
 	border-radius: 80%;
 	border-style: solid;
 }
-
+*/
 #sucursales .maps {
 	display: flex;
 	justify-content: center;
@@ -1805,7 +1922,7 @@
 	width: 700px;
 	height: 300px;
 }
-
+/*
 #sucursales footer {
 	text-align: center;
 	margin-bottom: 50px;
@@ -1815,6 +1932,67 @@
 	color: greenyellow;
 }
 */
+
+
+
+
+@media (max-width: 1100px){
+
+#sucursales .logos img {
+	width: 325px;
+	height: 200px;
+}
+
+#sucursales .logos2 img {
+	width: 300px;
+}
+
+#sucursales .menuinfo li {
+	font-size: 26px;
+}
+
+#sucursales h3 {
+	font-size: 50px;
+}
+
+#sucursales .maps iframe {
+	width: 550px;
+	height: 240px;
+}
+
+}
+
+
+@media (max-width: 700px){
+
+#sucursales .logos img {
+	width: 250px;
+	height: 150px;
+}
+
+#sucursales .logos2 img {
+	width: 240px;
+}
+
+#sucursales .menuinfo li {
+	font-size: 20px;
+}
+
+#sucursales h3 {
+	font-size: 40px;
+}
+
+#sucursales .maps {
+	margin-bottom: 20px;
+}
+
+#sucursales .maps iframe {
+	width: 400px;
+	height: 180px;
+}
+}
+
+
 
 /*-------------------------------------------------------------------------*/
 
