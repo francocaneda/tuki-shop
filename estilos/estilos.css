@@ -2150,24 +2150,21 @@
 	font-size: 45px;
 	font-family: 'Mali';
 	color: #EB7D65;
-	text-shadow: 0 0 4px black;	
+	text-shadow: 0 0 1px white;	
 	letter-spacing: 3px;
 }
 
 #tienda .primeratabla {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-bottom: 80px;
 }
 
 #tienda .segundatabla {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 80px;
-	margin-left: 80px;
-	margin-right: 80px;
 	margin-bottom: 80px;
 }
 
@@ -2214,6 +2211,7 @@
 	text-shadow: 0 0 8px black;	
 	letter-spacing: 3px;
 	margin-bottom: 30px;
+	margin-top: 80px;
 }
 
 #tienda .final a {
@@ -2237,3 +2235,86 @@
 	margin-bottom: 30px;
 	font-weight: bold;
 }
+
+
+
+
+
+
+@media (max-width: 700px){
+
+	#tienda .logos img {
+	width: 250px;
+	height: 150px;
+	}
+
+	#tienda .logos2 img {
+	width: 240px;
+	}
+
+	#tienda .menuinfo li {
+	font-size: 20px;
+	}
+
+	#tienda h3 {
+	font-size: 50px;
+	}
+
+	#tienda h4 {
+	font-size: 40px;
+	}
+
+	#tienda table span {
+	font-size: 23px;
+	}
+
+	#tienda .final {
+	font-size: 35px;
+	}
+
+	#tienda .final a {
+	font-size: 35px;
+	}
+
+
+
+
+@media (max-width: 700px){
+
+	#tienda .logos img {
+	width: 250px;
+	height: 150px;
+	}
+
+	#tienda .logos2 img {
+	width: 240px;
+	}
+
+	#tienda .menuinfo li {
+	font-size: 20px;
+	}
+
+	#tienda h3 {
+	font-size: 40px;
+	}
+
+	#tienda h4 {
+	font-size: 35px;
+	}
+
+	#tienda main a {
+	font-size: 20px;
+	}
+
+	#tienda table span {
+	font-size: 20px;
+	}
+
+	#tienda .final {
+	font-size: 25px;
+	}
+
+	#tienda .final a {
+	font-size: 25px;
+	}
+
