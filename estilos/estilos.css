@@ -11,8 +11,6 @@
     background-color: #1E6E37;
     display: flex;
     flex-wrap: wrap;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: left;
     padding: 20px;
@@ -58,7 +56,8 @@
         color: white;
         transition-property: color;
         transition-duration: 0.3s;
-        transition-timing-function: ease-in; }
+        transition-timing-function: ease-in;
+        text-decoration: none; }
     #inicio nav li {
       font-size: 30px; }
     #inicio nav .menu1 {
@@ -67,7 +66,6 @@
       flex-wrap: wrap;
       justify-content: space-evenly; }
       #inicio nav .menu1 a:hover {
-        text-decoration: underline;
         color: greenyellow; }
     #inicio nav .menu2 {
       margin-right: 30px;
@@ -89,7 +87,8 @@
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    word-spacing: 80px; }
+    word-spacing: 80px;
+    border-radius: 20px; }
     #inicio .slider .foto1 {
       width: 40%;
       min-width: 230px; }
@@ -162,7 +161,8 @@
       margin-top: 50px; }
   #inicio .jefe {
     padding: 20px;
-    background-color: #248542; }
+    background-color: #248542;
+    border-radius: 20px; }
     #inicio .jefe table {
       border: 5px solid greenyellow;
       width: 100%;
@@ -444,7 +444,8 @@
         color: white;
         transition-property: color;
         transition-duration: 0.3s;
-        transition-timing-function: ease-in; }
+        transition-timing-function: ease-in;
+        text-decoration: none; }
     #contacto nav li {
       font-size: 30px; }
     #contacto nav .menu1 {
@@ -453,7 +454,6 @@
       flex-wrap: wrap;
       justify-content: space-evenly; }
       #contacto nav .menu1 a:hover {
-        text-decoration: underline;
         color: greenyellow; }
     #contacto nav .menu2 {
       margin-right: 30px;
@@ -768,7 +768,8 @@
         color: white;
         transition-property: color;
         transition-duration: 0.3s;
-        transition-timing-function: ease-in; }
+        transition-timing-function: ease-in;
+        text-decoration: none; }
     #nosotros nav li {
       font-size: 30px; }
     #nosotros nav .menu1 {
@@ -777,7 +778,6 @@
       flex-wrap: wrap;
       justify-content: space-evenly; }
       #nosotros nav .menu1 a:hover {
-        text-decoration: underline;
         color: greenyellow; }
     #nosotros nav .menu2 {
       margin-right: 30px;
@@ -880,10 +880,13 @@
     text-align: center; }
     #nosotros .visita span {
       font-size: 35px;
-      font-family: 'Mali'; }
+      font-family: 'Mali';
+      animation-name: animacion1;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse; }
       #nosotros .visita span a {
-        color: black;
-        text-decoration: underline; }
+        color: black; }
         #nosotros .visita span a:hover {
           color: greenyellow; }
     #nosotros .visita .ancla {
@@ -1087,7 +1090,8 @@
         color: white;
         transition-property: color;
         transition-duration: 0.3s;
-        transition-timing-function: ease-in; }
+        transition-timing-function: ease-in;
+        text-decoration: none; }
     #tienda nav li {
       font-size: 30px; }
     #tienda nav .menu1 {
@@ -1096,7 +1100,6 @@
       flex-wrap: wrap;
       justify-content: space-evenly; }
       #tienda nav .menu1 a:hover {
-        text-decoration: underline;
         color: greenyellow; }
     #tienda nav .menu2 {
       margin-right: 30px;
