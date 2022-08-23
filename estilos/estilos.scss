@@ -188,7 +188,7 @@
 
 	.texto1 {
 		text-align: center;
-		font-size: 28px;
+		font-size: 30px;
 		color: ghostwhite;
 		text-shadow: 0 0 8px black;	
 		font-family: 'Concert One';
@@ -318,15 +318,15 @@
 	footer {
 		margin-bottom: 40px;
 
-		p {
+		h2 {
 				word-spacing: 10px;
-				font-size: 40px;
+				font-size: 50px;
 				color: ghostwhite;
 				text-shadow: 0 0 8px black;
 				font-weight: bold;
 				letter-spacing: 2px ;
 				text-align: center;
-				font-family: 'Mali';
+				font-family: 'Patrick Hand';
 
 		}
 
@@ -530,8 +530,8 @@
 				}
 			}
 
-			p {
-				font-size: 35px;
+			h2 {
+				font-size: 40px;
 			}
 		}
 
@@ -648,8 +648,8 @@
 				}
 			}
 
-			p {
-				font-size: 25px;
+			h2 {
+				font-size: 30px;
 			}
 		}
 
@@ -803,14 +803,14 @@
 		word-spacing: 15px;
 		color: ghostwhite;
 		font-family: 'Patrick Hand';
-		font-size: 50px;
+		font-size: 37px;
 
 		p {
 			padding: 0;
 			margin: 0;
 		}
 
-		h3 {
+		h1 {
 			padding: 0;
 			margin: 0;
 		}
@@ -831,7 +831,7 @@
 		margin-left: 20px;
 		margin-right: 20px;
 		font-family: 'Concert One';
-		font-size: 35px;
+		font-size: 30px;
 		color: ghostwhite;
 		text-align: center;
 		text-shadow: 0 0 8px black;
@@ -849,36 +849,17 @@
 		padding-top: 25px;
 		padding-bottom: 10px;
 		font-family: 'Concert One';
-		font-size: 25px;
+		font-size: 30px;
 		color: ghostwhite;
 		text-align: center;
 		text-shadow: 0 0 8px black;
 	}
 
-	.apellido {
-		padding-top: 20px;
-		padding-bottom: 10px;
-		font-family: 'Concert One';
-		font-size: 25px;
-		color: ghostwhite;
-		text-align: center;
-		text-shadow: 0 0 8px black;
-	}
 
 	.telefono {
 		margin-left: 20px;
 		margin-right: 20px;
 		margin-top: 40px;
-		font-family: 'Concert One';
-		font-size: 25px;
-		color: ghostwhite;
-		text-align: center;
-		text-shadow: 0 0 8px black;
-	}
-
-	.detalle {
-		padding-top: 20px;
-		padding-bottom: 10px;
 		font-family: 'Concert One';
 		font-size: 25px;
 		color: ghostwhite;
@@ -954,16 +935,11 @@
 		}
 
 		.titulo {
-			font-size: 40px;
+			font-size: 32px;
 		}
 
 		.datos {
-			font-size: 30px;
-		}
-
-		.telefono {
-			margin-top: 20px;
-			font-size: 23px;
+			font-size: 25px;
 		}
 
 		.envio {
@@ -1005,11 +981,11 @@
 		}
 
 		.titulo {
-			font-size: 30px;
+			font-size: 27px;
 		}
 
 		.datos {
-			font-size: 25px;
+			font-size: 22px;
 		}
 
 		.telefono {
@@ -1020,6 +996,10 @@
 
 		.envio {
 			margin-bottom: 5px;
+		}
+
+		.nombre {
+			font-size: 25px;
 		}
 	}
 }
@@ -1112,8 +1092,8 @@
 		text-shadow: 0 0 8px black;	
 	}
 
-	h3 {
-		font-size: 70px;
+	h1 {
+		font-size: 80px;
 		margin-top: 0;
 		margin-bottom: 0;
 	}
@@ -1188,8 +1168,8 @@
 			font-size: 50px;
 		}
 
-		h3 {
-			font-size: 60px;
+		h1 {
+			font-size: 70px;
 		}
 
 		.flechita {
@@ -1240,8 +1220,8 @@
 			padding: 10px;
 		}
 
-		h3 {
-			font-size: 50px;
+		h1 {
+			font-size: 60px;
 		}
 
 		.flechita {
@@ -1401,7 +1381,7 @@
 	.titulo {
 		margin: 20px;
 		text-align: center;
-		font-size: 50px;
+		font-size: 40px;
 		font-family: 'Patrick Hand';
 		color: ghostwhite;
 		text-shadow: 0 0 8px black;
@@ -1443,7 +1423,7 @@
 	animation-direction: alternate-reverse;
 }
 
-	h3{
+	h1{
 		@include animacion;
 	}
 
@@ -1490,7 +1470,7 @@
 		margin-right: 30px;
 	}
 
-	h4 {
+	h2 {
 		text-align: left;
 		color: ghostwhite;
 		font-family: 'Mali';
@@ -1595,10 +1575,10 @@
 		}
 
 		.titulo {
-			font-size: 40px;
+			font-size: 35px;
 		}
 
-		h4 {
+		h2 {
 			font-size: 35px;
 		}
 
@@ -1665,10 +1645,10 @@
 		}
 
 		.titulo {
-			font-size: 30px;
+			font-size: 25px;
 		}
 
-		 h4 {
+		 h2 {
 			font-size: 25px;
 		}
 
@@ -1770,9 +1750,9 @@
 		
 	}
 
-	h3 {
+	h1 {
 		text-align: center;
-		font-size: 60px;
+		font-size: 70px;
 		font-family: 'Patrick Hand';
 		color: ghostwhite;
 		text-shadow: 0 0 8px black;	
@@ -1782,6 +1762,8 @@
 	}
 
 	.maps {
+		margin-left: 20px;
+		margin-right: 20px;
 		display: flex;
 		justify-content: center;
 		margin-bottom: 40px;
@@ -1798,7 +1780,7 @@
 
 @media (max-width: 1100px) {
 
-	#login {
+	#sucursales {
 
 		.logo {
 
@@ -1819,25 +1801,19 @@
 			}
 		}
 
-		h3 {
+		h1 {
 			font-size: 50px;
 		}
 
-		.maps {
-			
-			iframe {
-				width: 550px;
-				height: 240px;
-			}
-		}
 	}
 }
 
 
 
+
 @media (max-width: 700px) {
 
-	#login {
+	#sucursales {
 
 		.logo {
 
@@ -1858,18 +1834,8 @@
 			}
 		}
 
-		h3 {
-			font-size: 40px;
-		}
-
-		.maps {
-
-			margin-bottom: 20px;
-
-			iframe {
-				width: 400px;
-				height: 180px;
-			}
+		h1 {
+			font-size: 45px;
 		}
 	}
 }
@@ -2009,7 +1975,7 @@
 		}
 	}
 
-	h3 {
+	h1 {
 		margin-top: 40px;
 		margin-bottom: 40px;
 		text-align: center;
@@ -2027,7 +1993,7 @@
 		width: 100%;
 	}
 
-	h4 {
+	h2 {
 		text-align: center;
 		font-size: 45px;
 		font-family: 'Mali';
@@ -2154,11 +2120,11 @@
 			}
 		}
 
-		h3 {
+		h1 {
 			font-size: 50px;
 		}
 
-		h4 {
+		h2 {
 			font-size: 40px;
 		}
 
@@ -2211,11 +2177,11 @@
 			}
 		}
 		
-		h3 {
+		h1 {
 			font-size: 40px;
 		}
 
-		h4 {
+		h2 {
 			font-size: 35px;
 		}
 
