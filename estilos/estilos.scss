@@ -1,3 +1,8 @@
+$colorprincipal: ghostwhite;
+$res_tablet: 1100px;
+$res_mobile: 700px;
+
+
 #inicio {
 	background-image: url('../imagenes/verde.jpg');
 	background-repeat: repeat;
@@ -161,7 +166,7 @@
 		text-align: center;
 		font-family: 'Patrick Hand';
 		font-size: 40px;
-		color: ghostwhite;
+		color: $colorprincipal;
 		text-shadow: 0 0 8px black;	
 		letter-spacing: 3px;
 	}
@@ -170,7 +175,7 @@
 	.texto1 {
 		text-align: center;
 		font-size: 30px;
-		color: ghostwhite;
+		color: $colorprincipal;
 		text-shadow: 0 0 8px black;	
 		font-family: 'Concert One';
 		padding-left: 40px;
@@ -187,7 +192,7 @@
 		margin-bottom: 60px;
 		margin-top: 60px;
 		text-align: center;
-		color: ghostwhite;
+		color: $colorprincipal;
 		text-shadow: 0 0 8px black;	
 
 		table {
@@ -302,7 +307,7 @@
 		h2 {
 				word-spacing: 10px;
 				font-size: 50px;
-				color: ghostwhite;
+				color: $colorprincipal;
 				text-shadow: 0 0 8px black;
 				font-weight: bold;
 				letter-spacing: 2px ;
@@ -312,16 +317,15 @@
 		}
 
 		.grid {
-			width: 700px;
+			width: 800px;
 			margin: auto;
 			margin-top: 50px;
 			display: grid;
-			grid-template-columns: 1fr 2fr;
-			grid-template-rows: 250px 200px 150px 230px;
-			grid-template-areas: 'Whatsapp Whatsapp'
-								 'Twitter Facebook'
-								 'Youtube Facebook'
-								 'Instagram Facebook';
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			grid-template-rows: 160px;
+			grid-template-areas: 'Whatsapp Twitter Facebook Instagram Youtube';
+								
+
 
 			.grid1 {
 				grid-area: Whatsapp;
@@ -372,7 +376,7 @@
 
 
 			a {
-				color: aqua;
+				color: greenyellow;
 				text-shadow: 0 0 6px black;
 				font-size: 30px;
 				font-family: 'Patrick Hand';
@@ -407,7 +411,7 @@
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: $res_tablet) {
 
 	#inicio {
 
@@ -444,7 +448,7 @@
 
 		.texto1 {
 			text-align: center;
-			font-size: 20px;
+			font-size: 22px;
 			color: ghostwhite;
 			text-shadow: 0 0 8px black;	
 			font-family: 'Concert One';
@@ -466,27 +470,30 @@
 			}
 		}
 
-		.span1 {
-			text-align: center;
-			font-size: 25px;
-			color: #C49618;
-			font-family: 'Heebo';
-			text-shadow: 0 0 8px black;
-		}
-
-		.span2 {
-			margin-bottom: 15px;
-			text-align: center;
-			font-size: 22px;
-			color: #C49618;
-			font-family: 'Heebo';
-			text-shadow: 0 0 8px black;
-		}
-
 		.jefe { 
 
 			table {
 				border: 4px solid greenyellow;
+
+				.span1 {
+					text-align: center;
+					font-size: 25px;
+					color: #C49618;
+					font-family: 'Heebo';
+					text-shadow: 0 0 8px black;
+				}
+
+				.span2 {
+
+					span {
+					margin-bottom: 15px;
+					text-align: center;
+					font-size: 25px;
+					color: #C49618;
+					font-family: 'Heebo';
+					text-shadow: 0 0 8px black;
+					}
+				}
 			}
 
 			p {
@@ -499,12 +506,9 @@
 		.redes {
 
 			.grid {
-				width: 550px;
-				grid-template-rows: 180px 120px 120px 180px;
-				grid-template-areas: 'Whatsapp Whatsapp'
-									 'Twitter Facebook'
-									 'Youtube Facebook'
-									 'Instagram Facebook';
+				width: 600px;
+				grid-template-rows: 130px;
+
 
 				a {
 					font-size: 25px;
@@ -524,7 +528,7 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: $res_mobile) {
 
 	#inicio {
 
@@ -560,14 +564,14 @@
 
 		.texto1 {
 			text-align: center;
-			font-size: 16px;
+			font-size: 18px;
 			color: ghostwhite;
 			text-shadow: 0 0 8px black;	
 			font-family: 'Concert One';
 		}
 
 		.primeratabla {
-			font-size: 12px;
+			font-size: 14px;
 			margin-bottom: 60px;
 			margin-top: 60px;
 
@@ -585,27 +589,30 @@
 
 		}
 
-		.span1 {
-			text-align: center;
-			font-size: 20px;
-			color: #C49618;
-			font-family: 'Heebo';
-			text-shadow: 0 0 8px black;
-		}
-
-		.span2 {
-			margin-bottom: 15px;
-			text-align: center;
-			font-size: 17px;
-			color: #C49618;
-			font-family: 'Heebo';
-			text-shadow: 0 0 8px black;
-		}
-
 		.jefe {
 
 			table {
 				border: 3px solid greenyellow;
+
+				.span1 {
+					text-align: center;
+					font-size: 20px;
+					color: #C49618;
+					font-family: 'Heebo';
+					text-shadow: 0 0 8px black;
+				}
+
+				.span2 {
+
+					span {
+						margin-bottom: 15px;
+						text-align: center;
+						font-size: 20px;
+						color: #C49618;
+						font-family: 'Heebo';
+						text-shadow: 0 0 8px black;
+					}
+				}
 			}
 
 			p {
@@ -618,12 +625,9 @@
 		.redes {
 
 			.grid {
-				width: 300px;
-				grid-template-rows: 120px 90px 90px 120px;
-				grid-template-areas: 'Whatsapp Whatsapp'
-									 'Twitter Facebook'
-									 'Youtube Facebook'
-									 'Instagram Facebook';
+				width: 400px;
+				grid-template-rows: 100px;
+
 				a {
 					font-size: 20px;
 				}
@@ -884,7 +888,7 @@
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: $res_tablet) {
 
 	#contacto {
 
@@ -931,7 +935,7 @@
 
 
 
-@media (max-width: 700px) {
+@media (max-width: $res_mobile) {
 
 	#contacto {
 
@@ -1120,7 +1124,7 @@
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: $res_tablet) {
 
 	#login {
 
@@ -1172,7 +1176,7 @@
 
 
 
-@media (max-width: 700px) {
+@media (max-width: $res_mobile) {
 
 	#login {
 
@@ -1524,7 +1528,7 @@
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: $res_tablet) {
 
 	#nosotros {
 
@@ -1595,7 +1599,7 @@
 
 
 
-@media (max-width: 700px) {
+@media (max-width: $res_mobile) {
 
 	#nosotros {
 
@@ -1759,7 +1763,7 @@
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: $res_tablet) {
 
 	#sucursales {
 
@@ -1792,7 +1796,7 @@
 
 
 
-@media (max-width: 700px) {
+@media (max-width: $res_mobile) {
 
 	#sucursales {
 
@@ -2070,7 +2074,7 @@
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: $res_tablet) {
 
 	#tienda {
 
@@ -2128,7 +2132,7 @@
 
 
 
-@media (max-width: 700px) {
+@media (max-width: $res_mobile) {
 
 	#tienda {
 
