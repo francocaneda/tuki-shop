@@ -153,11 +153,14 @@ $res_mobile: 700px;
 			min-width: 230px;
 			border-radius: 30px;
 			border: 4px solid black;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
 
-			&:hover {
-			 border-style: dashed;
-			 border-color: greenyellow;
-				}
+				&:hover {
+				 border-style: dashed;
+				 border-color: greenyellow;
+				 transform: scale(0.95);
+					}
 			}
 	}
 
@@ -289,7 +292,7 @@ $res_mobile: 700px;
 			}
 
 			p {
-				color: #C7AA14;
+				color: #9BDFA2;
 				font-size: 20px;
 				font-family: 'Mandali';
 			}
@@ -657,13 +660,16 @@ $res_mobile: 700px;
 	margin: 0;
 
 
-	nav input {
-	width: 100%;
+	nav {
+		
+		a { 
+			font-family: 'Mali';
+		}
 	}
 
 
 	.logo {
-		background-color: #7A5537;
+		background-color: #1E6E37;
 		display: flex;
 		flex-wrap: wrap;
 		display: flex;
@@ -717,74 +723,13 @@ $res_mobile: 700px;
 	}
 
 
-	nav {
-		width: 100%;
-		margin-top: 0;
-		width: 100%;
-		display: flex;
-		flex-wrap: no-wrap;
-		background-color: #38230E;
-		word-spacing: 30px;
-		font-family: 'Rubik Moonrocks';
-		font-size: 10px;
-
-		.menuinfo input {
-			vertical-align: bottom;
-		}
-
-		img {
-			vertical-align: bottom;
-		}
-
-		ul {
-			width: 100%;
-
-			a {
-				color: white;
-				transition-property: color;
-				transition-duration: 0.3s;
-				transition-timing-function: ease-in;
-				text-decoration: none;
-			}
-
-		}
-
-		li {
-			font-size: 30px;
-		}
-
-
-		.menu1 {
-			padding-left: 30px;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-evenly ;
-
-			a:hover {
-				color: greenyellow;
-			}
-		}
-
-		.menu2 {
-			margin-right: 30px;
-			vertical-align: middle;
-			display: flex;
-			justify-content: flex-end;
-		}
-
-		.espaciado {
-			display: flex;
-			justify-content: space-between;
-		}
-
-	}
-
 
 	.titulo {
 		margin-left: 10px;
 		margin-right: 10px;
 		text-align: center;
 		margin-top: 30px;
+		margin-bottom: 30px;
 		word-spacing: 15px;
 		color: ghostwhite;
 		font-family: 'Patrick Hand';
@@ -796,6 +741,7 @@ $res_mobile: 700px;
 		}
 
 		h1 {
+			font-size: 80px;
 			padding: 0;
 			margin: 0;
 		}
@@ -812,11 +758,11 @@ $res_mobile: 700px;
 		}
 	}
 
-	.datos {
+	h2 {
 		margin-left: 20px;
 		margin-right: 20px;
 		font-family: 'Concert One';
-		font-size: 30px;
+		font-size: 35px;
 		color: ghostwhite;
 		text-align: center;
 		text-shadow: 0 0 8px black;
@@ -920,11 +866,14 @@ $res_mobile: 700px;
 		}
 
 		.titulo {
-			font-size: 32px;
+
+			h1 {
+			font-size: 65px;
+			}
 		}
 
-		.datos {
-			font-size: 25px;
+		h2 {
+			font-size: 30px;
 		}
 
 		.envio {
@@ -966,11 +915,14 @@ $res_mobile: 700px;
 		}
 
 		.titulo {
-			font-size: 27px;
+
+			h1 {
+			font-size: 45px;
+			}
 		}
 
-		.datos {
-			font-size: 22px;
+		h2 {
+			font-size: 25px;
 		}
 
 		.telefono {
@@ -1003,8 +955,11 @@ $res_mobile: 700px;
 	margin: 0;
 
 
-	nav input {
-	width: 100%;
+	nav {
+		
+		a { 
+			font-family: 'Mali';
+		}
 	}
 
 
@@ -1241,14 +1196,15 @@ $res_mobile: 700px;
 	padding: 0;
 	margin: 0;
 
-
-	nav input {
-	width: 100%;
+	nav {
+		
+		a { 
+			font-family: 'Mali';
+		}
 	}
 
-
 	.logo {
-		background-color: #7A5537;
+		background-color: #1E6E37;
 		display: flex;
 		flex-wrap: wrap;
 		display: flex;
@@ -1302,71 +1258,10 @@ $res_mobile: 700px;
 	}
 
 
-	nav {
-		width: 100%;
-		margin-top: 0;
-		width: 100%;
-		display: flex;
-		flex-wrap: no-wrap;
-		background-color: #38230E;
-		word-spacing: 30px;
-		font-family: 'Rubik Moonrocks';
-		font-size: 10px;
-
-		.menuinfo input {
-			vertical-align: bottom;
-		}
-
-		img {
-			vertical-align: bottom;
-		}
-
-		ul {
-			width: 100%;
-
-			a {
-				color: white;
-				transition-property: color;
-				transition-duration: 0.3s;
-				transition-timing-function: ease-in;
-				text-decoration: none;
-			}
-
-		}
-
-		li {
-			font-size: 30px;
-		}
-
-
-		.menu1 {
-			padding-left: 30px;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-evenly ;
-
-			a:hover {
-				color: greenyellow;
-			}
-		}
-
-		.menu2 {
-			margin-right: 30px;
-			vertical-align: middle;
-			display: flex;
-			justify-content: flex-end;
-		}
-
-		.espaciado {
-			display: flex;
-			justify-content: space-between;
-		}
-	}
-
-	.titulo {
+	h1 {
 		margin: 20px;
 		text-align: center;
-		font-size: 40px;
+		font-size: 80px;
 		font-family: 'Patrick Hand';
 		color: ghostwhite;
 		text-shadow: 0 0 8px black;
@@ -1381,7 +1276,7 @@ $res_mobile: 700px;
 		}
 
 		to {
-			color: #F249CE;
+			color: #1E6E37;
 		}
 	}
 
@@ -1456,6 +1351,8 @@ $res_mobile: 700px;
 	}
 
 	h2 {
+		margin-top: 30px;
+		margin-bottom: 30px;
 		text-align: left;
 		color: ghostwhite;
 		font-family: 'Mali';
@@ -1465,8 +1362,10 @@ $res_mobile: 700px;
 	}
 
 	.parrafo {
-		color: #F8CAFD;
+		color: whitesmoke;
 		font-size: 22px;
+		font-family: 'Mali';
+		font-width: bold;
 		text-shadow: 0 0 8px black;
 	}
 
@@ -1507,7 +1406,7 @@ $res_mobile: 700px;
 			@include animacion;
 
 			a {
-				color: black;
+				color: white;
 
 				&:hover {
 					color: greenyellow;
@@ -1559,8 +1458,10 @@ $res_mobile: 700px;
 			}
 		}
 
-		.titulo {
-			font-size: 35px;
+		h1 {
+			margin-top: 15px;
+			margin-bottom: 15px;
+			font-size: 65px;
 		}
 
 		h2 {
@@ -1629,8 +1530,8 @@ $res_mobile: 700px;
 			}
 		}
 
-		.titulo {
-			font-size: 25px;
+		h1 {
+			font-size: 45px;
 		}
 
 		 h2 {
@@ -1682,8 +1583,11 @@ $res_mobile: 700px;
 	margin: 0;
 
 
-	nav input {
-	width: 100%;
+	nav {
+		
+		a { 
+			font-family: 'Mali';
+		}
 	}
 
 
@@ -1839,13 +1743,16 @@ $res_mobile: 700px;
 	margin: 0;
 
 
-	nav input {
-	width: 100%;
+	nav {
+		
+		a { 
+			font-family: 'Mali';
+		}
 	}
 
 
 	.logo {
-		background-color: #7A5537;
+		background-color: #1E6E37;
 		display: flex;
 		flex-wrap: wrap;
 		display: flex;
@@ -1899,67 +1806,6 @@ $res_mobile: 700px;
 	}
 
 
-	nav {
-		width: 100%;
-		margin-top: 0;
-		width: 100%;
-		display: flex;
-		flex-wrap: no-wrap;
-		background-color: #38230E;
-		word-spacing: 30px;
-		font-family: 'Rubik Moonrocks';
-		font-size: 10px;
-
-		.menuinfo input {
-			vertical-align: bottom;
-		}
-
-		img {
-			vertical-align: bottom;
-		}
-
-		ul {
-			width: 100%;
-
-			a {
-				color: white;
-				transition-property: color;
-				transition-duration: 0.3s;
-				transition-timing-function: ease-in;
-				text-decoration: none;
-			}
-
-		}
-
-		li {
-			font-size: 30px;
-		}
-
-
-		.menu1 {
-			padding-left: 30px;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-evenly ;
-
-			a:hover {
-				color: greenyellow;
-			}
-		}
-
-		.menu2 {
-			margin-right: 30px;
-			vertical-align: middle;
-			display: flex;
-			justify-content: flex-end;
-		}
-
-		.espaciado {
-			display: flex;
-			justify-content: space-between;
-		}
-	}
-
 	h1 {
 		margin-top: 40px;
 		margin-bottom: 40px;
@@ -1979,6 +1825,8 @@ $res_mobile: 700px;
 	}
 
 	h2 {
+		margin-top: 40px;
+		margin-bottom: 30px;
 		text-align: center;
 		font-size: 45px;
 		font-family: 'Mali';
@@ -1988,6 +1836,7 @@ $res_mobile: 700px;
 	}
 
 	.primeratabla {
+		text-align: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -2004,6 +1853,7 @@ $res_mobile: 700px;
 	}
 
 	.segundatabla {
+		text-align: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
